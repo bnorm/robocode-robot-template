@@ -21,5 +21,5 @@ jobs:
       - uses: actions/upload-artifact@v2
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
-          name: Jarivs
+          name: Robots
           path: build/robocode/robots/**/*.jar
